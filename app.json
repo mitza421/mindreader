@@ -56,7 +56,7 @@
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": "mongodb+srv://mitza1312:wFNqJXrki8ofF2a0@mindr.fmhyb.mongodb.net/"
+         "value": "mindr.fmhyb.mongodb.net/"
       },
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
