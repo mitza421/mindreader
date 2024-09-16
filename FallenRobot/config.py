@@ -19,7 +19,7 @@ class Config(object):
 
     SUPPORT_CHAT = "MindRSupport"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = "7266219972:AAGs01VwYSnITVN8-Cf4SEKnnrwuR0aQ3L4"  # Get bot token from @BotFather on Telegram
+    TOKEN = ""  # Get bot token from @BotFather on Telegram
 
     TIME_API_KEY = "WVWF05XIHQAF"  # Get this value from https://timezonedb.com/api
 
@@ -27,11 +27,11 @@ class Config(object):
 
     # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
-    DRAGONS = [7225146356]  # User id of sudo users
-    DEV_USERS = [7225146356]  # User id of dev users
-    DEMONS = [7225146356]  # User id of support users
-    TIGERS = [7225146356]  # User id of tiger users
-    WOLVES = [7225146356]  # User id of whitelist users
+    DRAGONS = ["7225146356"]  # User id of sudo users
+    DEV_USERS = ["7225146356"]  # User id of dev users
+    DEMONS = ["7225146356"]  # User id of support users
+    TIGERS = ["7225146356"]  # User id of tiger users
+    WOLVES = ["7225146356"]  # User id of whitelist users
 
     ALLOW_CHATS = True
     ALLOW_EXCL = True
