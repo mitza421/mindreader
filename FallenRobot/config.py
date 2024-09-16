@@ -19,7 +19,7 @@ class Config(object):
 
     SUPPORT_CHAT = "MindRSupport"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = ""  # Get bot token from @BotFather on Telegram
+    TOKEN = "7266219972:AAGs01VwYSnITVN8-Cf4SEKnnrwuR0aQ3L4"  # Get bot token from @BotFather on Telegram
 
     TIME_API_KEY = "WVWF05XIHQAF"  # Get this value from https://timezonedb.com/api
 
