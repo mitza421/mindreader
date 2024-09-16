@@ -8,16 +8,16 @@ class Config(object):
 
     CASH_API_KEY = "UD3MW6RIRHBG3PPU"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
+    DATABASE_URL = "mysql -h bx26hnlh3q.eu-west-2.aws.clickhouse.cloud -u mysql4bx26hnlh3q -P 3306 --password"  # A sql database url from elephantsql.com
 
     EVENT_LOGS = (-1002260161038)  # Event logs channel to note down important bot level events
 
     MONGO_DB_URI = "mindr.fmhyb.mongodb.net/"  # Get ths value from cloud.mongodb.com
 
     # Telegraph link of the image which will be shown at start command.
-    START_IMG = "https://te.legra.ph/file/40eb1ed850cdea274693e.jpg"
+    START_IMG = "https://envs.sh/wlQ.png"
 
-    SUPPORT_CHAT = "DevilsHeavenMF"  # Your Telegram support group chat username where your users will go and bother you
+    SUPPORT_CHAT = "MindRSupport"  # Your Telegram support group chat username where your users will go and bother you
 
     TOKEN = ""  # Get bot token from @BotFather on Telegram
 
