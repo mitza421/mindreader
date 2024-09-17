@@ -62,7 +62,7 @@ def get_readable_time(seconds: int) -> str:
 
     for x in range(len(time_list)):
         time_list[x] = str(time_list[x]) + time_suffix_list[x]
-    if len(time_list) == 4:
+    if len(time_list) == 4:​
         ping_time += time_list.pop() + ", "
 
     time_list.reverse()
@@ -72,40 +72,40 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʏ* {}, 🥀
+*ꜱᴀʟᴜᴛ/ʙᴜɴᴀ* {}, 🥀
 
-*๏ ᴛʜɪs ɪs* {} !
-➻ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
+*๏ ​🇦​​🇨​​🇪​​🇸​​🇹​​🇦​ ​🇪​​🇸​​🇹​​🇪​* {} !
+➻ 🇦​​🇲​ ​🇫​​🇴​​🇸​​🇹​ ​🇨​​🇷​​🇪​​🇦​​🇹​ ​🇸​ă ​🇲​​🇴​​🇩​​🇪​​🇷​​🇪​​🇿​ ​🇨​​🇴​​🇲​​🇺​​🇳​​🇮​​🇹​​🇦​​🇹​​🇪​​🇦​  ​🇫​​🇮​​🇷​​🇸​​🇹​ ​🇹​​🇪​​🇱​​🇪​​🇬​​🇷​​🇦​​🇲​ ​🇪​​🇲​​🇵​​🇮​​🇷​​🇪​, ​🇳​​🇺​ ​🇵​​🇴​​🇹​ ​🇦​​🇸​​🇨​​🇺​​🇱​​🇹​​🇦​ ​🇩​​🇴​​🇦​​🇷​ ​🇨​​🇴​​🇲​​🇪​​🇳​​🇿​​🇮​​🇱​​🇪​ ​🇴​​🇼​​🇳​​🇪​​🇷​-​🇺​​🇱​​🇺​​🇮​ ș​🇮​ ​🇦​ ​🇴​​🇦​​🇲​​🇪​​🇳​​🇮​​🇱​​🇴​​🇷​ ​🇩​​🇪​ ​🇲​ă ​🇦​​🇩​​🇦​​🇺​​🇬​ă î​🇳​ ​🇬​​🇷​​🇺​​🇵​​🇺​​🇱​ ​🇱​​🇴​​🇷​ ​🇨​​🇺​ ​🇩​​🇷​​🇪​​🇵​​🇹​​🇺​​🇷​​🇮​ ​🇩​​🇪​ ​🇦​​🇩​​🇲​​🇮​​🇳​.
 
 ──────────────────
-*๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs.*
+*๏ ​🇦​​🇵​​🇦​​🇸​​🇦​ ​🇧​​🇺​​🇹​​🇴​​🇳​​🇺​​🇱​ ​🇭​​🇪​​🇱​​🇵​ ​🇸​​🇦​ ​🇻​​🇪​​🇿​​🇮​ ​🇮​​🇳​​🇫​​🇴​​🇷​​🇲​​🇦​​🇹​​🇮​​🇮​ ​🇩​​🇪​​🇸​​🇵​​🇷​​🇪​ ​🇲​​🇮​​🇳​​🇪​ ​🇸​​🇮​ ​🇨​​🇪​ ​🇵​​🇴​​🇹​ ​🇸​​🇦​ ​🇫​​🇦​​🇨​.*
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            text="ᴀᴅᴀᴜɢᴀ-ᴍᴀ ʟᴀ ᴛɪɴᴇ ɪɴ ɢʀᴜᴘ",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
+        InlineKeyboardButton(text="ᴀᴊᴜᴛᴏʀ & ᴄᴏᴍᴇɴᴢɪ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="❄ ᴀʙᴏᴜᴛ ❄", callback_data="fallen_"),
+        InlineKeyboardButton(text="❄ ᴅᴇꜱᴘʀᴇ ❄", callback_data="fallen_"),
         InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="☁️ sᴏᴜʀᴄᴇ ☁️", callback_data="source_"),
+        InlineKeyboardButton(text="🥀 🇨​​🇷​​🇪​​🇦​​🇹​​🇴​​🇷​ 🥀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="☁️ ꜱᴜʀꜱᴀ ☁️", callback_data="source_"),
     ],
 ]
 
 HELP_STRINGS = f"""
 *» {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*
 
-➲ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ.
-➲ /help  : ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.
+➲ /start : ᴍᴀ ᴘᴏʀɴᴇꜱᴛɪ | ᴅᴜᴘᴀ ᴄᴜᴍ ᴠᴀᴅ ᴅᴇᴊᴀ ᴀɪ ꜰᴀᴄᴜᴛ-ᴏ
+➲ /help  : ᴄᴏᴍᴇɴᴢɪ ᴠᴀʟᴀʙɪʟᴇ
   ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.
   ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ ᴍᴏᴅᴜʟᴇꜱ."""
 
