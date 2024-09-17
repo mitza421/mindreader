@@ -1,5 +1,5 @@
 {
-      "name": "Mind Reader",
+      "name": "ᴍɪɴᴅʀᴇᴀᴅᴇʀ ʙᴏᴛ",
       "description": "Bot creat să administreze comunități.",
       "logo": "https://envs.sh/wlQ.png",
       "keywords": [
@@ -9,7 +9,7 @@
          "manager",
          "MindReader"
       ],   
-   "repository": "https://github.com/AnonymousX1025/FallenRobot",
+   "repository": "https://github.com/mitza421/mindreader",
    "stack": "heroku-22",
    "addons": [
       {
