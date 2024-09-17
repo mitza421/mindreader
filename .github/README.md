@@ -4,9 +4,8 @@
     ──「 ᴍɪɴᴅʀᴇᴀᴅᴇʀ  ✘ ꜰᴛᴇ 」──
 </h2>
 
-<p align="center">
-  <img src="https://github.com/AnonymousX1025/FallenRobot/blob/master/FallenRobot/resources/fglitch.gif">
-</p>
+
+
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ᴍɪɴᴅʀᴇᴀᴅᴇʀ ✘ ꜰᴛᴇ](https://t.me/mindr_v1_bot)**_
 ━━━━━━━━━━━━━━━━━━━━
@@ -41,3 +40,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ᴍɪɴᴅʀᴇᴀ�
 <p align="center">
 <a href="https://telegram.me/FallenAssociation"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
+
+
+
+
