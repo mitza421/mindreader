@@ -95,7 +95,7 @@ buttons = [
         InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="🥀 🇨​​🇷​​🇪​​🇦​​🇹​​🇴​​🇷​ 🥀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="🥀 ᴄʀᴇᴀᴛᴏʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="☁️ ꜱᴜʀꜱᴀ ☁️", callback_data="source_"),
     ],
 ]
