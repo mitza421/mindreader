@@ -62,7 +62,7 @@ def get_readable_time(seconds: int) -> str:
 
     for x in range(len(time_list)):
         time_list[x] = str(time_list[x]) + time_suffix_list[x]
-    if len(time_list) == 4:​
+    if len(time_list) == 4:
         ping_time += time_list.pop() + ", "
 
     time_list.reverse()
